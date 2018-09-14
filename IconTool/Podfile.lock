@@ -1,0 +1,37 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - CocoaHTTPServer (2.3):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - GTMBase64 (1.0.1)
+  - TZImagePickerController (3.0.6)
+
+DEPENDENCIES:
+  - CocoaHTTPServer
+  - GTMBase64
+  - TZImagePickerController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
+    - CocoaHTTPServer
+    - CocoaLumberjack
+    - GTMBase64
+    - TZImagePickerController
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  CocoaHTTPServer: 5624681fc3473d43b18202f635f9b3abb013b530
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
+  TZImagePickerController: f1cc4b5720f6d01c9804ad136c28bb8a986388d7
+
+PODFILE CHECKSUM: a22266599810b4dc621ec43602220145f0948559
+
+COCOAPODS: 1.5.3

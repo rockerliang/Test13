@@ -1,0 +1,6 @@
+framework module Pods_IconTool {
+  umbrella header "Pods-IconTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		066672D9659BCF1CE62D9F86 /* Pods_IconTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED853ADF1117CE9BA13E0775 /* Pods_IconTool.framework */; };
+		BF26B9642148A60400A58E80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26B9632148A60400A58E80 /* AppDelegate.m */; };
+		BF26B9672148A60400A58E80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26B9662148A60400A58E80 /* ViewController.m */; };
+		BF26B96A2148A60400A58E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF26B9682148A60400A58E80 /* Main.storyboard */; };
+		BF26B96C2148A60600A58E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF26B96B2148A60600A58E80 /* Assets.xcassets */; };
+		BF26B96F2148A60600A58E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF26B96D2148A60600A58E80 /* LaunchScreen.storyboard */; };
+		BF26B9722148A60600A58E80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26B9712148A60600A58E80 /* main.m */; };
+		BF26B97C2148A60600A58E80 /* IconToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26B97B2148A60600A58E80 /* IconToolTests.m */; };
+		BF26B9872148A60600A58E80 /* IconToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26B9862148A60600A58E80 /* IconToolUITests.m */; };
+		BF26B9D62148A87700A58E80 /* UIImage+DLDataURIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26B9952148A87700A58E80 /* UIImage+DLDataURIImage.m */; };
+		BF26B9D72148A87700A58E80 /* DLAddToDesktopHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26B9962148A87700A58E80 /* DLAddToDesktopHandler.m */; };
+		BF26B9D82148A87700A58E80 /* DLBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26B9992148A87700A58E80 /* DLBase64.m */; };
+		BF26B9D92148A87700A58E80 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = BF26B99C2148A87700A58E80 /* index.html */; };
+		BF26B9DA2148A87700A58E80 /* content.html in Resources */ = {isa = PBXBuildFile; fileRef = BF26B99D2148A87700A58E80 /* content.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF26B9782148A60600A58E80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF26B9572148A60400A58E80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF26B95E2148A60400A58E80;
+			remoteInfo = IconTool;
+		};
+		BF26B9832148A60600A58E80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF26B9572148A60400A58E80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF26B95E2148A60400A58E80;
+			remoteInfo = IconTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6609FCAAB289539EE13B5873 /* Pods-IconTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IconTool/Pods-IconTool.debug.xcconfig"; sourceTree = "<group>"; };
+		BF26B95F2148A60400A58E80 /* IconTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF26B9622148A60400A58E80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF26B9632148A60400A58E80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF26B9652148A60400A58E80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF26B9662148A60400A58E80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF26B9692148A60400A58E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF26B96B2148A60600A58E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF26B96E2148A60600A58E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF26B9702148A60600A58E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF26B9712148A60600A58E80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF26B9772148A60600A58E80 /* IconToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF26B97B2148A60600A58E80 /* IconToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconToolTests.m; sourceTree = "<group>"; };
+		BF26B97D2148A60600A58E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF26B9822148A60600A58E80 /* IconToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF26B9862148A60600A58E80 /* IconToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconToolUITests.m; sourceTree = "<group>"; };
+		BF26B9882148A60600A58E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF26B9952148A87700A58E80 /* UIImage+DLDataURIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DLDataURIImage.m"; sourceTree = "<group>"; };
+		BF26B9962148A87700A58E80 /* DLAddToDesktopHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLAddToDesktopHandler.m; sourceTree = "<group>"; };
+		BF26B9972148A87700A58E80 /* DLBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLBase64.h; sourceTree = "<group>"; };
+		BF26B9982148A87700A58E80 /* UIImage+DLDataURIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DLDataURIImage.h"; sourceTree = "<group>"; };
+		BF26B9992148A87700A58E80 /* DLBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLBase64.m; sourceTree = "<group>"; };
+		BF26B99A2148A87700A58E80 /* DLAddToDesktopHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLAddToDesktopHandler.h; sourceTree = "<group>"; };
+		BF26B99C2148A87700A58E80 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		BF26B99D2148A87700A58E80 /* content.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = content.html; sourceTree = "<group>"; };
+		ED853ADF1117CE9BA13E0775 /* Pods_IconTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IconTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3F8762374CE7C26C896837 /* Pods-IconTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-IconTool/Pods-IconTool.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF26B95C2148A60400A58E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				066672D9659BCF1CE62D9F86 /* Pods_IconTool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF26B9742148A60600A58E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF26B97F2148A60600A58E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FB2EDCDFEA3656656E4707C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6609FCAAB289539EE13B5873 /* Pods-IconTool.debug.xcconfig */,
+				EF3F8762374CE7C26C896837 /* Pods-IconTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8357B4FC512A8FE9513307EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED853ADF1117CE9BA13E0775 /* Pods_IconTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF26B9562148A60400A58E80 = {
+			isa = PBXGroup;
+			children = (
+				BF26B9612148A60400A58E80 /* IconTool */,
+				BF26B97A2148A60600A58E80 /* IconToolTests */,
+				BF26B9852148A60600A58E80 /* IconToolUITests */,
+				BF26B9602148A60400A58E80 /* Products */,
+				0FB2EDCDFEA3656656E4707C /* Pods */,
+				8357B4FC512A8FE9513307EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF26B9602148A60400A58E80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF26B95F2148A60400A58E80 /* IconTool.app */,
+				BF26B9772148A60600A58E80 /* IconToolTests.xctest */,
+				BF26B9822148A60600A58E80 /* IconToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF26B9612148A60400A58E80 /* IconTool */ = {
+			isa = PBXGroup;
+			children = (
+				BF26B9942148A87700A58E80 /* DLAddToDesktopLib */,
+				BF26B9622148A60400A58E80 /* AppDelegate.h */,
+				BF26B9632148A60400A58E80 /* AppDelegate.m */,
+				BF26B9652148A60400A58E80 /* ViewController.h */,
+				BF26B9662148A60400A58E80 /* ViewController.m */,
+				BF26B9682148A60400A58E80 /* Main.storyboard */,
+				BF26B96B2148A60600A58E80 /* Assets.xcassets */,
+				BF26B96D2148A60600A58E80 /* LaunchScreen.storyboard */,
+				BF26B9702148A60600A58E80 /* Info.plist */,
+				BF26B9712148A60600A58E80 /* main.m */,
+			);
+			path = IconTool;
+			sourceTree = "<group>";
+		};
+		BF26B97A2148A60600A58E80 /* IconToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF26B97B2148A60600A58E80 /* IconToolTests.m */,
+				BF26B97D2148A60600A58E80 /* Info.plist */,
+			);
+			path = IconToolTests;
+			sourceTree = "<group>";
+		};
+		BF26B9852148A60600A58E80 /* IconToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF26B9862148A60600A58E80 /* IconToolUITests.m */,
+				BF26B9882148A60600A58E80 /* Info.plist */,
+			);
+			path = IconToolUITests;
+			sourceTree = "<group>";
+		};
+		BF26B9942148A87700A58E80 /* DLAddToDesktopLib */ = {
+			isa = PBXGroup;
+			children = (
+				BF26B9952148A87700A58E80 /* UIImage+DLDataURIImage.m */,
+				BF26B9962148A87700A58E80 /* DLAddToDesktopHandler.m */,
+				BF26B9972148A87700A58E80 /* DLBase64.h */,
+				BF26B9982148A87700A58E80 /* UIImage+DLDataURIImage.h */,
+				BF26B9992148A87700A58E80 /* DLBase64.m */,
+				BF26B99A2148A87700A58E80 /* DLAddToDesktopHandler.h */,
+				BF26B99B2148A87700A58E80 /* HTMLTemplet */,
+			);
+			path = DLAddToDesktopLib;
+			sourceTree = "<group>";
+		};
+		BF26B99B2148A87700A58E80 /* HTMLTemplet */ = {
+			isa = PBXGroup;
+			children = (
+				BF26B99C2148A87700A58E80 /* index.html */,
+				BF26B99D2148A87700A58E80 /* content.html */,
+			);
+			path = HTMLTemplet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF26B95E2148A60400A58E80 /* IconTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF26B98B2148A60600A58E80 /* Build configuration list for PBXNativeTarget "IconTool" */;
+			buildPhases = (
+				EB4DC8EC7784BCB55C16E364 /* [CP] Check Pods Manifest.lock */,
+				BF26B95B2148A60400A58E80 /* Sources */,
+				BF26B95C2148A60400A58E80 /* Frameworks */,
+				BF26B95D2148A60400A58E80 /* Resources */,
+				27DF2A347FFF1BF977204A2A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconTool;
+			productName = IconTool;
+			productReference = BF26B95F2148A60400A58E80 /* IconTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF26B9762148A60600A58E80 /* IconToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF26B98E2148A60600A58E80 /* Build configuration list for PBXNativeTarget "IconToolTests" */;
+			buildPhases = (
+				BF26B9732148A60600A58E80 /* Sources */,
+				BF26B9742148A60600A58E80 /* Frameworks */,
+				BF26B9752148A60600A58E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF26B9792148A60600A58E80 /* PBXTargetDependency */,
+			);
+			name = IconToolTests;
+			productName = IconToolTests;
+			productReference = BF26B9772148A60600A58E80 /* IconToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF26B9812148A60600A58E80 /* IconToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF26B9912148A60600A58E80 /* Build configuration list for PBXNativeTarget "IconToolUITests" */;
+			buildPhases = (
+				BF26B97E2148A60600A58E80 /* Sources */,
+				BF26B97F2148A60600A58E80 /* Frameworks */,
+				BF26B9802148A60600A58E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF26B9842148A60600A58E80 /* PBXTargetDependency */,
+			);
+			name = IconToolUITests;
+			productName = IconToolUITests;
+			productReference = BF26B9822148A60600A58E80 /* IconToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF26B9572148A60400A58E80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Rocker;
+				TargetAttributes = {
+					BF26B95E2148A60400A58E80 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BF26B9762148A60600A58E80 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BF26B95E2148A60400A58E80;
+					};
+					BF26B9812148A60600A58E80 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BF26B95E2148A60400A58E80;
+					};
+				};
+			};
+			buildConfigurationList = BF26B95A2148A60400A58E80 /* Build configuration list for PBXProject "IconTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF26B9562148A60400A58E80;
+			productRefGroup = BF26B9602148A60400A58E80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF26B95E2148A60400A58E80 /* IconTool */,
+				BF26B9762148A60600A58E80 /* IconToolTests */,
+				BF26B9812148A60600A58E80 /* IconToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF26B95D2148A60400A58E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF26B96F2148A60600A58E80 /* LaunchScreen.storyboard in Resources */,
+				BF26B9D92148A87700A58E80 /* index.html in Resources */,
+				BF26B96C2148A60600A58E80 /* Assets.xcassets in Resources */,
+				BF26B96A2148A60400A58E80 /* Main.storyboard in Resources */,
+				BF26B9DA2148A87700A58E80 /* content.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF26B9752148A60600A58E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF26B9802148A60600A58E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27DF2A347FFF1BF977204A2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IconTool/Pods-IconTool-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaHTTPServer/CocoaHTTPServer.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMBase64/GTMBase64.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaHTTPServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMBase64.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IconTool/Pods-IconTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB4DC8EC7784BCB55C16E364 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IconTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF26B95B2148A60400A58E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF26B9D62148A87700A58E80 /* UIImage+DLDataURIImage.m in Sources */,
+				BF26B9672148A60400A58E80 /* ViewController.m in Sources */,
+				BF26B9722148A60600A58E80 /* main.m in Sources */,
+				BF26B9D72148A87700A58E80 /* DLAddToDesktopHandler.m in Sources */,
+				BF26B9D82148A87700A58E80 /* DLBase64.m in Sources */,
+				BF26B9642148A60400A58E80 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF26B9732148A60600A58E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF26B97C2148A60600A58E80 /* IconToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF26B97E2148A60600A58E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF26B9872148A60600A58E80 /* IconToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF26B9792148A60600A58E80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF26B95E2148A60400A58E80 /* IconTool */;
+			targetProxy = BF26B9782148A60600A58E80 /* PBXContainerItemProxy */;
+		};
+		BF26B9842148A60600A58E80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF26B95E2148A60400A58E80 /* IconTool */;
+			targetProxy = BF26B9832148A60600A58E80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF26B9682148A60400A58E80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF26B9692148A60400A58E80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF26B96D2148A60600A58E80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF26B96E2148A60600A58E80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF26B9892148A60600A58E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF26B98A2148A60600A58E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF26B98C2148A60600A58E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6609FCAAB289539EE13B5873 /* Pods-IconTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Q44Z7E9XB6;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = IconTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanghanyang.iconTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "13fcdfc3-e112-44f5-972a-6f807957e53b";
+				PROVISIONING_PROFILE_SPECIFIER = iconToolDevelopmentW;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BF26B98D2148A60600A58E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3F8762374CE7C26C896837 /* Pods-IconTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Q44Z7E9XB6;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = IconTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanghanyang.iconTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f02816bb-82af-408e-987c-c813cddc432e";
+				PROVISIONING_PROFILE_SPECIFIER = iconToolDistributionW;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BF26B98F2148A60600A58E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IconToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rockerliang.IconToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IconTool.app/IconTool";
+			};
+			name = Debug;
+		};
+		BF26B9902148A60600A58E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IconToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rockerliang.IconToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IconTool.app/IconTool";
+			};
+			name = Release;
+		};
+		BF26B9922148A60600A58E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IconToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rockerliang.IconToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IconTool;
+			};
+			name = Debug;
+		};
+		BF26B9932148A60600A58E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IconToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rockerliang.IconToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IconTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF26B95A2148A60400A58E80 /* Build configuration list for PBXProject "IconTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF26B9892148A60600A58E80 /* Debug */,
+				BF26B98A2148A60600A58E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF26B98B2148A60600A58E80 /* Build configuration list for PBXNativeTarget "IconTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF26B98C2148A60600A58E80 /* Debug */,
+				BF26B98D2148A60600A58E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF26B98E2148A60600A58E80 /* Build configuration list for PBXNativeTarget "IconToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF26B98F2148A60600A58E80 /* Debug */,
+				BF26B9902148A60600A58E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF26B9912148A60600A58E80 /* Build configuration list for PBXNativeTarget "IconToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF26B9922148A60600A58E80 /* Debug */,
+				BF26B9932148A60600A58E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF26B9572148A60400A58E80 /* Project object */;
+}

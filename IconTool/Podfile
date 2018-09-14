@@ -1,0 +1,10 @@
+use_frameworks!
+platform :ios, '8.0'
+
+target ‘IconTool’ do
+
+pod 'CocoaHTTPServer'
+pod 'GTMBase64'
+pod 'TZImagePickerController' #iOS8 and later
+
+end

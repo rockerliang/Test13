@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rq8-Ly-buV"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bhj-EA-nQt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ICONTOOL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21A-Ze-CWS">
+                                <rect key="frame" x="40" y="80" width="163" height="43.666666666666657"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="31"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APP 图标设计工具" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNa-pZ-RHd">
+                                <rect key="frame" x="40" y="133.66666666666666" width="133.66666666666666" height="23"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="16"/>
+                                <color key="textColor" white="0.0" alpha="0.19809144295302014" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GroupPDF" translatesAutoresizingMaskIntoConstraints="NO" id="CnQ-Ww-nVv">
+                                <rect key="frame" x="87" y="306" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="HXf-tt-BMz"/>
+                                    <constraint firstAttribute="width" constant="200" id="cfu-9J-LsY"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wLU-q2-yKL">
+                                <rect key="frame" x="106" y="536" width="163" height="45"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="s8z-AL-WGJ"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WF7-sg-kYa">
+                                <rect key="frame" x="98" y="686" width="180" height="38"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="18"/>
+                                <state key="normal" title="一键生成APP桌面图标">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="confirmAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dsQ-fL-H2I"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="21A-Ze-CWS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="6hN-ho-dxC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wLU-q2-yKL" secondAttribute="trailing" constant="90" id="D7w-F0-lm6"/>
+                            <constraint firstItem="CnQ-Ww-nVv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MFq-Bx-pgz"/>
+                            <constraint firstItem="RNa-pZ-RHd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="NvE-cs-pOx"/>
+                            <constraint firstItem="WF7-sg-kYa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RED-ZJ-Gcz"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="RNa-pZ-RHd" secondAttribute="trailing" constant="20" symbolic="YES" id="Rsr-Xr-mwX"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="21A-Ze-CWS" secondAttribute="trailing" constant="20" symbolic="YES" id="Y4Z-QU-Z2Q"/>
+                            <constraint firstItem="CnQ-Ww-nVv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="duj-rk-WXe"/>
+                            <constraint firstItem="RNa-pZ-RHd" firstAttribute="top" secondItem="21A-Ze-CWS" secondAttribute="bottom" constant="10" id="fH4-IE-zni"/>
+                            <constraint firstItem="wLU-q2-yKL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="90" id="fjg-6Y-VdI"/>
+                            <constraint firstItem="21A-Ze-CWS" firstAttribute="top" secondItem="Rq8-Ly-buV" secondAttribute="bottom" constant="36" id="mSh-J3-clQ"/>
+                            <constraint firstItem="Bhj-EA-nQt" firstAttribute="top" secondItem="WF7-sg-kYa" secondAttribute="bottom" constant="54" id="mym-Z7-Rx8"/>
+                            <constraint firstItem="wLU-q2-yKL" firstAttribute="top" secondItem="CnQ-Ww-nVv" secondAttribute="bottom" constant="30" id="xzm-8g-Jbh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgView" destination="CnQ-Ww-nVv" id="YzV-KT-1t6"/>
+                        <outlet property="titleField" destination="wLU-q2-yKL" id="EYc-bM-lRf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="28.335832083958024"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="GroupPDF" width="200" height="200"/>
+    </resources>
+</document>
